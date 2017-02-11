@@ -1,0 +1,132 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+
+    }
+    body {
+       width: 100%;
+       height: 100%;
+    }
+
+    header {
+        background-color: #ECFDFF;
+        background-image: url('flag.png');
+         background-position: center;
+         background-size: contain;
+        opacity: 0.3;
+        background-color: #ECFDFF;
+        padding: 10px;
+        border: 8.5px dotted #000000;
+        font-size: 35px;
+        display: block;
+    }
+    nav {
+        float: left;
+    }
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        background-color: #ECFDFF;
+        height: 30px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color:green;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+      }
+        h1 {
+          font-family: fantasy;
+          font-style:normal;
+          font-size: 50px;
+          font-weight: bolder;
+        }
+        h2{
+          font-family: fantasy;
+          font-style:normal;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        h3{
+          font-family: fantasy;
+          font-style:normal;
+          font-size: 20px;
+          font-weight: bolder;
+          color: Blue;
+        }
+        h4{
+            font-family: fantasy;
+            font-style:normal;
+            font-size: 20px;
+            font-weight: bolder;
+            color: blue;
+          }
+        }
+        footer{
+          font-family: cursive;
+          font-style:normal;
+          font-size: 20px;
+          font-weight: bolder;
+          color: blue;
+        }
+        p {
+          font-family: fantasy;
+          font-style:normal;
+          font-size: 20px;
+          font-weight: bolder;
+          color: green;
+        }
+        ul {
+          font-family: fantasy;
+          font-style:normal;
+          font-size: 15px;
+          font-weight: bolder;
+          color: red;
+        }
+        body:after {
+          content: "crest.png";
+          background: url('crest.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          opacity: 0.2;
+          top: 0;
+          left: 0;
+          bottom: -800;
+          right: 0;
+          position: absolute;
+          z-index: -1;
+        }
+    }
